@@ -56,7 +56,7 @@
     transition: fill $animation-time $cubic-time-function;
 
     .btn-close:hover &{
-        color: var(--accent-color);
+        color: $accent-color;
     }
 
 }

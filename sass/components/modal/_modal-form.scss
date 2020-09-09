@@ -64,9 +64,10 @@
 
     transition: fill $animation-time $cubic-time-function;
 
-    .input-wrapper:focus + & {
-        color: $accent-color;
-    }
+}
+
+.input:focus + .icon {
+    fill: $accent-color;
 }
 
 .input-wrapper .icon-person {
@@ -83,6 +84,7 @@
     width: 16px;
     height: 12px;
 }
+
 
 .input-wrapper .input.text-area{       /* Переопределение паддинга для секции коммента  */
     padding: 12px 0px 0px 16px;
@@ -124,12 +126,12 @@
 
     transform: translateY(calc(-50% - 1px));
 
-    background-color: var(--primary-white-color);
+    background-color: $primary-white-color;
 
     border: 2px solid $checkbox-border-color;
     border-radius: 2px;
 
-    .input-checkbox:checked & {
+    .input-checkbox:checked + & {
     
         background-image: url('../images/icon_check.svg');
         background-repeat: no-repeat;
@@ -138,7 +140,13 @@
     
         border: none;
     }
+
+    .input-checkbox:focus + & {
+        border: 2px solid $accent-color;
+    }
 }
+
+
 
 .modal-form .submit-button{
     display: block;
