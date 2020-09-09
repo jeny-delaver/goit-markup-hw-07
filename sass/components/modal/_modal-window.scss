@@ -47,18 +47,22 @@
     border-radius: 50%;
 
     cursor: pointer;
+
+    &:hover > .icon-close{
+        color: $accent-color;
+    }
 }  
 
 
 .btn-close .icon-close{
     width: 11px;
     height: 11px;
-    transition: fill $animation-time $cubic-time-function;
 
-    .btn-close:hover &{
-        color: $accent-color;
-    }
+    fill: currentColor;
 
+    transition: color $animation-time $cubic-time-function;
 }
+
+
 
 @import './modal-form';
