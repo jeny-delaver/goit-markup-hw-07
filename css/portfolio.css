@@ -774,7 +774,7 @@ img {
   height: 20px;
 }
 
-.subscribe-form label {
+.subscribe-form .action-title {
   display: block;
   color: #ffffff;
   font-size: 14px;
