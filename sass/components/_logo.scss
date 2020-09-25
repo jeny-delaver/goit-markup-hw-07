@@ -6,7 +6,7 @@
 .logo {
     @extend %link;
     @include set_text_style(26px, 700, 1.19, 0.03em);
-    font-family: Raleway, sans-serif;
+    font-family: $accent_font;
   
 }
 
