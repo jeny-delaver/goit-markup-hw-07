@@ -7,22 +7,23 @@ $accent_font: Raleway, sans-serif;
 
 //
 
-$primary-text-color: #757575;
-$primary-bg-color: #ffffff;
-$title-text-color: #212121;
-$accent-color: #2196f3;  
+$primary-text-color:  #757575;
+$primary-bg-color:    #ffffff;
+$second-bg-color:     #F5F4FA;
+$title-text-color:    #212121;
+$accent-color:        #2196f3;  
 
 $primary-white-color: #ffffff;
 
-$social-icon-color: #ffffff;
+$social-icon-color: $primary-white-color;
 $background-icon-color: rgba(255, 255, 255, 0.1);
 
 
 
 // Header
 $hero-bg-gradient-color: rgba(47, 48, 58, 0.4);
-$hero-title-color: #ffffff;
-$hero-button-color: #ffffff;
+$hero-title-color: $primary-white-color;
+$hero-button-color: $primary-white-color;
 $hero-button-shadow-color: rgba(0, 0, 0, 0.15);
 $logo-header-color: #000000;
 $header-border-bottom-color: #ECECEC;
@@ -35,30 +36,30 @@ $footer-link-color:  rgba(255, 255, 255, 0.6);
 $footer-input-border-color: rgba(255, 255, 255, 0.3);
 $footer-input-placeholder-color: rgba(255, 255, 255, 0.6);
 $footer-button-shadow-color: rgba(0, 0, 0, 0.15);
-$logo-footer-color: #ffffff;
+$logo-footer-color: $primary-white-color;
 
 //
 
 // index.html
 
-$advantages-icon-bg-color:  #F5F4FA;
+$advantages-icon-bg-color: $second-bg-color;
 
 $competence-description-bg-color: rgba(47, 48, 58, 0.8);
-$competence-description-title: #ffffff;
+$competence-description-title: $primary-white-color;
 
-$team-section-bg-color: #F5F4FA;
-$team-card-bg-color: #ffffff;
+$team-section-bg-color: $second-bg-color;
+$team-card-bg-color: $primary-bg-color;
 $team-card-shadow-1: rgba(0, 0, 0, 0.12);
 $team-card-shadow-2: rgba(0, 0, 0, 0.14);
 $team-card-shadow-3: rgba(0, 0, 0, 0.2);
 $team-border-svg-color: #AFB1B8;
 
-$client-border-svg-color: #AFB1B8;
+$client-border-svg-color: $team-border-svg-color;
 
 
 
 // Portfolio.html
-$button-panel-bg-color: #F5F4FA;
+$button-panel-bg-color: $second-bg-color;
 
 $button-panel-shadow-1: rgba(0, 0, 0, 0.1);
 $button-panel-shadow-2: rgba(0, 0, 0, 0.08);
@@ -75,7 +76,7 @@ $project-example-link-shadow-3: rgba(0, 0, 0, 0.16);
 // 
 
 // Modal window
-$modal-backdrop-bg-color: #ffffff;
+$modal-backdrop-bg-color: $primary-bg-color;
 
 $modal-button-shadow-1: rgba(0, 0, 0, 0.12);
 $modal-button-shadow-2: rgba(0, 0, 0, 0.14);
